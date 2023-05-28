@@ -14,23 +14,23 @@
 3.第一次编译项目时，弹出“Gradle Sync”，将下载相应的gradle wrapper 。
 4.手机通过USB接口连接开发平台，并设置手机开发者选项允许调试。
 5.选择真实物理机（而不是模拟器）运行start模块
-- <img src="https://github.com/lyhah/aaa/blob/main/4/4.6.jpg" />
+- <img src="https://github.com/lyhah/aaa/blob/main/4/4.6.png" />
 6.允许应用获取手机摄像头的权限，得到下述效果图，界面利用随机数表示虚拟的识别结果。
 - <img src="https://github.com/lyhah/aaa/blob/main/4/4.7.jpg" />
 ### 向应用中添加TensorFlow Lite
 1.选择"start"模块
 2.右键“start”模块，或者选择File，然后New>Other>TensorFlow Lite Model
-- <img src="https://github.com/lyhah/aaa/blob/main/4/4.1.jpg" />
+- <img src="https://github.com/lyhah/aaa/blob/main/4/4.1.png" />
 3.选择已经下载的自定义的训练模型。本教程模型训练任务以后完成，这里选择finish模块中ml文件下的FlowerModel.tflite。
-- <img src="https://github.com/lyhah/aaa/blob/main/4/4.2.jpg" />
+- <img src="https://github.com/lyhah/aaa/blob/main/4/4.2.png" />
 点击“Finish”完成模型导入，系统将自动下载模型的依赖包并将依赖项添加至模块的build.gradle文件。
 4.最终TensorFlow Lite模型被成功导入，并生成摘要信息
-- <img src="https://github.com/lyhah/aaa/blob/main/4/4.3.jpg" />
+- <img src="https://github.com/lyhah/aaa/blob/main/4/4.3.png" />
 ### 检查代码中的TODO项
 本项目初始代码中包括了若干的TODO项，以导航项目中未完成之处。为了方便起见，首先查看TODO列表视图，View>Tool Windows>TODO
-- <img src="https://github.com/lyhah/aaa/blob/main/4/4.4.jpg" />
+- <img src="https://github.com/lyhah/aaa/blob/main/4/4.4.png" />
 默认情况下了列出项目所有的TODO项，进一步按照模块分组（Group By）
-- <img src="https://github.com/lyhah/aaa/blob/main/4/4.5.jpg" />
+- <img src="https://github.com/lyhah/aaa/blob/main/4/4.5.png" />
 ### 添加代码重新运行APP
 1.定位“start”模块MainActivity.kt文件的TODO 1，添加初始化训练模型的代码
 ```xml
